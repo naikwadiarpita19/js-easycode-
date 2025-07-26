@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM (handle events)</title>
+
+    <style>
+
+        body{
+            background-color: black;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color:whitesmoke;
+            transition: all 1s case-in-out;
+        }
+
+        #container{
+            height: 40px;
+            width: 300px;
+            background-color: skyblue;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            letter-spacing: 10px;
+            cursor: pointer;
+            box-shadow: 10px 20px 70px rgb(116, 25, 40);
+            border: 1px solid black;
+            &:hover{
+                transform: scale(1.011);
+            }
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <div id="container">change theme</div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

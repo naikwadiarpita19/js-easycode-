@@ -79,3 +79,21 @@ const div=(a,b)=>{
 
 
 calculator(sum,sub,multi,div)
+
+
+
+
+//  eg., 5
+
+const abc=()=>{
+    console.log("i am call back function")
+}
+
+const xyz=(p)=>{
+console.log("i am higher order function")
+a()
+}
+
+xyz(abc)
+
+// in eg., 5    abc() is a call back function and xyz() is a higher order function
