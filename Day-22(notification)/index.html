@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 22</title>
+    <style>
+        body{
+            height:100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: black;
+            overflow: hidden;
+            gap:20px;
+        }
+
+        #notification-input{
+            height: 40px;
+            width: 450px;
+            background-color: bisque;
+            padding: 3px 20px;
+            font-size: 1.2em;
+            outline: none;
+            border-radius: 4px;
+            border:none ;
+            border-bottom: 6px solid skyblue;
+        }
+
+        #btn{
+            height: 40px;
+            width:483px;
+            cursor: pointer;
+            border-radius: 4px;
+            border: none;
+            background-color: skyblue;
+            font-size: 1.2em;
+            letter-spacing: 10px;
+        }
+        .notification-body{
+            border-radius: 14px;
+            position: absolute;
+            top:-40%;
+            left: 50%;
+            transform: translate(-50%,0);
+            padding: 10px;
+            display: flex;
+            justify-content:start;
+            align-items: center;
+            font-size: 1.1em;
+            box-shadow: 4px 4px 10px gray;
+            transition: all 0.6s case-in;
+        }
+
+    </style>
+</head>
+<body>
+    <input placeholder="notification_text" id="notification-input">
+    <button id="btn">notify</button>
+
+    <div class="notification-body">
+     hello i am dummy notification
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
