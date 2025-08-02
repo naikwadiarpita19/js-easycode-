@@ -34,7 +34,7 @@ for(let i=1;i<=10;i++){
 let n3=parseInt(prompt("enter no. :"))
 document.title="table of"+n3
 for(let i=1;i<=10;i++){
-    let table=i*n3
+    let table3=i*n3
     document.write("<h3>"+table3+"</h3>")
 }
 
@@ -42,8 +42,8 @@ for(let i=1;i<=10;i++){
 
 // string concatnation
 
-let a="arpita"
-console.log("hello"+a)
+let a1="arpita"
+console.log("hello"+a1)
 
 
 let b="arpita"

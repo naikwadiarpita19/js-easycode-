@@ -54,14 +54,14 @@ loaddata(getdata())
 //    eg., 4)
 
 
-let calculator=(sum,sub,multi,div)=>{
-    (sum(2,2))
+let calculator=(add,sub,multi,div)=>{
+    (add(2,2))
     (sub(2,2))
     (multi(2,2))
     (div(2,2))
 }
 
-const sum=(a,b)=>{
+const add=(a,b)=>{
     console.log(a+b)
 }
 
@@ -78,7 +78,7 @@ const div=(a,b)=>{
 }
 
 
-calculator(sum,sub,multi,div)
+calculator(add,sub,multi,div)
 
 
 

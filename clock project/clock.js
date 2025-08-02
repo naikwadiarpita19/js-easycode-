@@ -10,6 +10,7 @@ let updateClock = () => {
     let hours = now.getHours();
     let minutes = now.getMinutes();
     let seconds = now.getSeconds();
+    
     clock.innerHTML = `${hours % 12 || 12} :: ${minutes} :: ${seconds}`
     date.innerHTML = `${now.getDate()} ${month[now.getMonth()]} ${now.getFullYear()}`;
 }

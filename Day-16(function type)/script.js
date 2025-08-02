@@ -10,7 +10,7 @@ a()
 
 //  or
 
-let hii=functionn() {
+let hii=function() {
     console.log("hello")
 }
 
@@ -18,21 +18,21 @@ hii()
 
 //  or
 
-let hello=functionn(a) {
+let hello=function(abc) {
     console.log("hello")
 }
 
-hello(a)
+hello(abc)
 
 
 //   eg.,2
 
-function a(){
+function p(){
     return ("hii")
 }
 
-let res=a()
-console.log(res)
+let result = p()
+console.log(result)
 
 //   eg., 3
 
@@ -45,16 +45,16 @@ isevenorodd()
 //     or
 
 
-let isevenorodd=function(number){
+let isevenorodd1=function(number){
     if(number%2==0){
-        return{"even"}
+        return("even")
     }else{
         return("odd")
     }
 }
 
-let res=isevenorodd(10)
-console.log(res)
+let answer=isevenorodd1(10)
+console.log(answer)
 
 
 
@@ -85,18 +85,18 @@ c(welcome)
 
 // eg., 3
 
-let sum=(a,b)=>{
+let sum1=(a,b)=>{
     return(a+b)
 }
-console.log(sum(2,3))
+console.log(sum1(2,3))
 
 
 //    or
 
 
 
-let sum=(a,b)=>(a+b)
-console.log(sum(19,7))
+let add=(a,b)=>(a+b)
+console.log(add(19,7))
 
 
 //    or

@@ -37,24 +37,24 @@ console.log(typeof is_valid_address)
 
 // iv] undefine
 
-let username 
-let useraddress
+let uname 
+let uaddress
 
 // for check datatype of variable
 
-console.log(typeof username)
-console.log(typeof useraddress)
+console.log(typeof uname)
+console.log(typeof uaddress)
 
 
 // v] null
 
-let usrename = null
-let useraddress = null
+let usrename1 = null
+let useraddress1 = null
 
 // for check datatype of variable
 
-console.log(typeof usrename)
-console.log(typeof useraddress)
+console.log(typeof usrename1)
+console.log(typeof useraddress1)
 
 
 

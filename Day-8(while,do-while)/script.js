@@ -28,20 +28,20 @@ while(num<=10){
  //eg., 1]
  // print no in beteen 0 to 10 using do-while loop
 
- let num=0
+ let no=0
 
  do{
-    console.log(num)
-    num++
- }while(num<=10)
+    console.log(no)
+    no++
+ }while(no<=10)
 
 
     // eg., 2]
     //print even no in between 0 to 10 using do-while loop
 
-    let even=0
+    let even1=0
 
     do{
-        console.log(even)
-        even=even+2
-    }while(even<=10)
+        console.log(even1)
+        even1=even+2
+    }while(even1<=10)

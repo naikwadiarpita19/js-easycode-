@@ -27,25 +27,25 @@ if(true)
 // 2] if else statement
 
 
-let no = 3
+let num = 3
 
-if(no % 2 == 0)
+if(num % 2 == 0)
     {
-    console.log(no,'is even')
+    console.log(num,'is even')
 }
 else
     {
-    console.log(no,'is odd')
+    console.log(num,'is odd')
 }
 
 
-let num = 4
+let number = 4
 
-if(num > 0)
+if(number > 0)
     {
-     console.log(num,'is positive')
+     console.log(number,'is positive')
 }
-else(num < 0)
+else(number < 0)
     {
-    console.log(num,'is negative')
+    console.log(number,'is negative')
 }

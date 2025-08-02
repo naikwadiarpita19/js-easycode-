@@ -17,10 +17,10 @@ console.log(year.getFullYear())
 
 // for month using array
 
-let date1=new1 date()
-let month=["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]
+let date1=date()
+let month1=["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]
 
-console.log(month[date1.getMonth()])
+console.log(month1[date1.getMonth()])
 
 //
 

@@ -11,8 +11,8 @@ console.log(person['name'])
 
 
 let mycity={
-    name:'shevgaon'
-    pincode:414502
+    name:'shevgaon',
+    pincode:414502,
     famous_area:['main-paith','khandoba-nagar','shivaji-chowak']
 };
 console.log(mycity)

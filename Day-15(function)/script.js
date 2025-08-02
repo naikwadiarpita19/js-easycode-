@@ -40,7 +40,7 @@ js()
 
 // eg., 4
 
-function a(user){
+function a(user1){
     console.log(`hello ${info}`)
 }
 
@@ -49,7 +49,7 @@ a()
 
 // eg., 5
 
-function sayHello(name="user"){
+function sayHello(uname="user1"){
     console.log("hello")
 }
 
@@ -76,22 +76,22 @@ sum(19,7)
 
 // eg ., 8
 
-let num1=parseInt(prompt("enter 1st no :"))
-let num1=parseInt(prompt("enter 2nd no :"))
+let a1=parseInt(prompt("enter 1st no :"))
+let b=parseInt(prompt("enter 2nd no :"))
 let operation=prompt("operation")
 
-function sum(num1,num2){
-    console.log(num1+num2)
+function sum(a1,b){
+    console.log(a1+b)
 }
 
-function sub(num1,num2){
-    console.log(num1-num2)
+function sub(a1,b){
+    console.log(a1-b)
 }
 
-function multi(num1,num2){
-    console.log(num1*num2)
+function multi(a1,b){
+    console.log(a1*b)
 }
 
-function div(num1,num2){
-    console.log(num1/num2)
+function div(a1,b){
+    console.log(a1/b)
 }

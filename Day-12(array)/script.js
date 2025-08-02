@@ -24,15 +24,15 @@ console.log(d)
 
 // for remove element on any particular index
 
-let a=[1,2,3,4,5]
-a.splice(1,2)
-console.log(a)
+let a1=[1,2,3,4,5]
+a1.splice(1,2)
+console.log(a1)
 
 // for add element  on any particular index
 
-let b=[5,6,7,8,9,3]
-b.splice(2,0,10)
-console.log(b)
+let b1=[5,6,7,8,9,3]
+b1.splice(2,0,10)
+console.log(b1)
 
 
 // sort    = for sorting element in given array
@@ -46,8 +46,8 @@ console.log(a)
 //   for get 2nd biggest no. in given array element
 
 let p=[60,4,5,30,80,50,1,32,6]
-numbers.sort()
-console.log(numbers[numbers.length-2])
+num.sort()
+console.log(num[num.length-2])
 
 
 

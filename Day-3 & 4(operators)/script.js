@@ -11,30 +11,30 @@
 
  // 2] -
 
- let num1=20
- let num2=10
- console.log(num1-num2)
+ let number1=20
+ let number2=10
+ console.log(number1-number2)
 
 
  // 3] *
 
- let num1=7
- let num2=3
- console.log(num1*num2)
+ let number4=7
+ let number3=3
+ console.log(number2*number3)
 
 
  // 4] %
 
- let num1=6
- let num2=2
- console.log(num1%num2)
+ let no=6
+ let no1=2
+ console.log(no%no1)
 
 
  // 5] /
 
- let num1=10
- let num2=2
- console.log(num1/num2)
+ let int1=10
+ let int2=2
+ console.log(int1/int2)
 
 
  // 6] ++a  (pre increment)
@@ -66,36 +66,36 @@
 
  // 1] = (assign)
 
- let a=10
- console.log(a)
+ let p=10
+ console.log(p)
 
 
  // 2] +=  (addition & assign)
 
- let a=10
+ let q=10
  a=a+1
- console.log(a)
+ console.log(q)
 
 
  // 3] -= (subtraction 7 assign)
 
- let b=11
- b=b-1
- console.log(b)
+ let r=11
+ r=r-1
+ console.log(r)
 
 
  // 4] *=  (multiplication & asign)
 
- let c=2
- c=c*2
- console.log(c)
+ let s=2
+ s=s*2
+ console.log(s)
 
 
  // 5] /=  (division & assign)
 
- let d=10
- d=d/2
- console.log(d)
+ let t=10
+ t=t/2
+ console.log(t)
 
 
 
@@ -103,58 +103,58 @@
 
  // 1] ==  (equal equal)
 
- let a=10
- let b=20
- console.log(a==b)
+ let i=10
+ let j=20
+ console.log(i==j)
 
 
  // 2] ===   (strictly equal equal)
 
- let c=10
- let d='10'
- console.log(c===d)
+ let e=10
+ let f='10'
+ console.log(e===f)
 
 
  // 3]  !=  (not equal)
 
  let x=5
- ley y='6'
+ let y='6'
  console.log(x!=y)
 
 
  // 4] !==  (strictly not equal)
 
- let p=3
- let q='5'
- console.log(p!==q)
+ let a1=3
+ let b1='5'
+ console.log(a1!==b1)
 
 
  // 5]  >  (greater than)
 
- let a=4
- let b=3
- console.log(a>b)
+ let c1=4
+ let d1=3
+ console.log(c1>d1)
 
 
  // 6]  >=  (greater than equal to)
 
- let p=5
- let q=5
- console,log(p>=q)
+ let x1=5
+ let y1=5
+ console.log(x1>=y1)
 
 
  // 7]  <  (less than)
 
- let x=10
- let y=20
- console.log(x<y)
+ let aru=10
+ let chimu=20
+ console.log(aru<chimu)
 
 
  // 8] <=  (less than equal to)
 
- let c=2
- let d=4
- console.log(c<=d)
+ let m=2
+ let n=4
+ console.log(m<=n)
 
 
 

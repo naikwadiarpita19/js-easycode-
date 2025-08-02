@@ -28,7 +28,7 @@ console.log(b)
 //eg   .,2
 
 
-const student={
+let student={
     name:"arpita",
     std:"SyBCS",
     div:'A',
@@ -69,8 +69,8 @@ for(let i in arr){                    // for in loop
 
 
 let obj={
-name="xyz",
-city="shevgaon",
+name:"xyz",
+city:"shevgaon",
 edu:"bcs"
 }
 
@@ -87,7 +87,7 @@ console.log(obj[i])
 
 
 for(let i in object){                              // all keys of object and key-value pairs of object
-    console.log(`$(i):$(obj[i])`)
+    console.log(`$(i):$(object[i])`)
 }
 
 
