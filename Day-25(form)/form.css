@@ -1,0 +1,54 @@
+body{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    height:65vh;
+    width:30vw;
+    background-color: gray;
+    padding: 20px;
+}
+
+form h3{
+    font-size:1.7em;
+    margin:20px 0;
+    border-bottom: 4px solid darkgray;
+    padding-bottom:10px ;
+}
+
+font input{
+    height:30px;
+    width:90px;
+    margin:10px;
+    color:black;
+    padding: 4px 10px;
+    outline: none;
+    background-color: #ffffffcc;
+    border:1px solid black;
+}
+
+form label{
+    font-size: 1.3em;
+    color:#808080e5;
+}
+
+form button{
+    padding: 10px 50px;
+    margin:10px;
+    background-color: aqua;
+    color: black;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#error{
+    display: none;
+}
